@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Other5Characters",
+	"Description": "Playable character art for Other5 creations: skeletal meshes, animations, rigs, materials and their audio (Manny, Quinn, Countess). Gameplay plugins such as Other5Combat build their characters on these.",
+	"Category": "Other5",
+	"CreatedBy": "Other5 Games",
+	"CreatedByURL": "https://other5.xyz",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
