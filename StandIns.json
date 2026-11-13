@@ -313,11 +313,6 @@
             "Source": "Fab:ParagonCountess"
         },
         {
-            "Package": "/Other5Characters/Countess/Characters/Global/MaterialLayers/Metal/T_Blank_N",
-            "Class": "Texture2D",
-            "Source": "Fab:ParagonCountess"
-        },
-        {
             "Package": "/Other5Characters/Countess/Characters/Global/MaterialLayers/Metal/T_Blue_Metal02",
             "Class": "Texture2D",
             "Source": "Fab:ParagonCountess"
@@ -503,11 +498,6 @@
             "Source": "Fab:ParagonCountess"
         },
         {
-            "Package": "/Other5Characters/Countess/Characters/Heroes/Countess/Meshes/PA_Countess_Ragdoll",
-            "Class": "PhysicsAsset",
-            "Source": "Paragon"
-        },
-        {
             "Package": "/Other5Characters/Countess/Characters/Heroes/Countess/Meshes/SM_Countess",
             "Class": "SkeletalMesh",
             "Source": "Fab:ParagonCountess"
@@ -606,11 +596,6 @@
             "Package": "/Other5Characters/Countess/Characters/Heroes/Countess/Textures/T_Universal_Eyelashes_D",
             "Class": "Texture2D",
             "Source": "Fab:ParagonCountess"
-        },
-        {
-            "Package": "/Other5Characters/Mannequin/Animations/ABP_Mannequin_Base1",
-            "Class": "AnimBlueprint",
-            "Source": "Paragon"
         }
     ]
 }
