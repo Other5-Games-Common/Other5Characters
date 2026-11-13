@@ -608,21 +608,6 @@
             "Source": "Fab:ParagonCountess"
         },
         {
-            "Package": "/Other5Characters/Countess/Rigs/IK_Countess",
-            "Class": "IKRigDefinition",
-            "Source": "Paragon"
-        },
-        {
-            "Package": "/Other5Characters/Countess/Rigs/IK_LyraMannequin",
-            "Class": "IKRigDefinition",
-            "Source": "Paragon"
-        },
-        {
-            "Package": "/Other5Characters/Countess/Rigs/RTG_Mannequin_Countess",
-            "Class": "IKRetargeter",
-            "Source": "Paragon"
-        },
-        {
             "Package": "/Other5Characters/Mannequin/Animations/ABP_Mannequin_Base1",
             "Class": "AnimBlueprint",
             "Source": "Paragon"
