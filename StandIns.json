@@ -596,6 +596,16 @@
             "Package": "/Other5Characters/Countess/Characters/Heroes/Countess/Textures/T_Universal_Eyelashes_D",
             "Class": "Texture2D",
             "Source": "Fab:ParagonCountess"
+        },
+        {
+            "Package": "/Other5Characters/Countess/Characters/Global/MaterialLayers/Metal/T_Blank_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonCountess"
+        },
+        {
+            "Package": "/Other5Characters/Countess/Characters/Heroes/Countess/Meshes/PA_Countess_Ragdoll",
+            "Class": "PhysicsAsset",
+            "Source": "Paragon"
         }
     ]
 }
