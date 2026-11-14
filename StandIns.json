@@ -1,4 +1,4 @@
-﻿{
+{
     "Version": 1,
     "Plugin": "Other5Characters",
     "StandIns": [
@@ -606,6 +606,616 @@
             "Package": "/Other5Characters/Countess/Characters/Heroes/Countess/Meshes/PA_Countess_Ragdoll",
             "Class": "PhysicsAsset",
             "Source": "Paragon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyelash/M_EyelashMaster",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyelash/T_Universal_Eyelashes_D",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/MaterialFunctions/ML_EyeRefraction",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Materials/M_EyeRefractive",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Materials/M_Eye_Occlusion",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Materials/M_TearDuct_2",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Materials/M_TearLine",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/SSP_EyeInner_Profile",
+            "Class": "SubsurfaceProfile",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_EYE_NORMALS",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_EyeIrisBaseColor_Example_2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_EyeIrisBaseColor_Example_6",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_EyeMidPlaneDisplacement_Example",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_EyeScleraBaseColor_Example_2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_Eye_Wet_Normal",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/Example/T_Sphere_EYE_NORMALS",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/SSP_TearDuctSubsurfaceProfile",
+            "Class": "SubsurfaceProfile",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/T_DecalMask_Radial03",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/T_EpicQuadPanorama_CC",
+            "Class": "TextureCube",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/T_EyeOcclusion2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/T_Eye_Tearduct__normals2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/T_Gideon_Corona_D",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Eyes/Textures/T_Swirly_Noise",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/Materials/MF_BlendHairColorsWithParam",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/Materials/M_HairSheet_Master2",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/SharedHairContent/MaleBearded_Gideon/T_BEARD_Alpha_01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/SharedHairContent/MaleBearded_Gideon/T_BEARD_Grad_01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/SharedHairContent/MaleBearded_Gideon/T_BEARD_ID_01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/T_Caustics_2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/T_Fire_Tiled_D",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/T_gradient_stasis",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/TestContent/T_HairClump02_Alpha",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/TestContent/T_HairClump02_Depth",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/TestContent/T_HairClump02_DyeMask",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/TestContent/T_HairClump02_ID",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Hair/TestContent/T_HairClump02_Roots",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_BrightnessAdjust",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_CharacterEffects",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_DeathFade",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_HitFlash",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_OrionCharacterAO",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_OrionRimlight",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_ParagonCharacterHairWind",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MF_SkinPores",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/ML_GideonULTEye",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_BaseColorTintAndContrast",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MF_RoughnessAdjustment",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_ScratchAndGrime",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/MaterialLayerConstructors/MLC_Standard",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/ParameterCollections/OrionGlobalGameplayCollection",
+            "Class": "MaterialParameterCollection",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise01_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialFunctions/Textures/Noise/T_AtmosphericCloudNoise03",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Fabric/ML_ColorableCloth",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Fabric/T_FineFabric01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Fabric/T_FineFabric01_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Leather/ML_ThinLeather01",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Leather/ML_Worn_Under_Leather",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Leather/T_ML_FineLeather01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Leather/T_ML_FineLeather01_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Leather/T_T_Worn_Under_Leather",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/ML__Blank",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/ML_Gold_Metal02",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/ML_Steel",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/ML_blue_Metal",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/T_Blank_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/T_Blue_Metal02",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/T_ML_Gold_Metal01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/T_RoughMetal01",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/T_RoughMetal01_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Metal/T_Rust01_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Painted/ML_Painted_Blue",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Painted/T_Cream_Paint_D",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Painted/T_Cream_Painted_Metal_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Painted/T_ML_PaintedConstructionMetal_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Rubber/T_Blank_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Skin/ML_Skin",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Skin/T_Pore_Normals2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Skin/T_Pore_Specular",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Synthetics/ML_Gem",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/Synthetics/T_Gideon_Eye_D",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/MaterialLayers/T_TestML_Mask",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Materials/MI_Human_Mouth",
+            "Class": "MaterialInstanceConstant",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Materials/M_Mouth_Master",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Materials/SSP_TeethSubsurfaceProfile",
+            "Class": "SubsurfaceProfile",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Textures/T_Master_Mouth_1_COLOR",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Textures/T_Master_Mouth_1_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Textures/T_Master_Mouth_1_RGB",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Textures/T_TeethAndTongue_D",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/Mouth/Textures/T_TeethAndTongue_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Global/T_Black_Linear",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/MF_Gideon_RingDissolve",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/ML_LightGold",
+            "Class": "MaterialFunction",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_Beard",
+            "Class": "MaterialInstanceConstant",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_EyeRefractive_Inst",
+            "Class": "MaterialInstanceConstant",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_Head",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_LowerBody",
+            "Class": "MaterialInstanceConstant",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_OuterRing_Masked",
+            "Class": "MaterialInstanceConstant",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_OuterRing_Particle",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_Ring_Glow",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_Upperbody",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/M_Gideon_Upperbody_Skin",
+            "Class": "Material",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Materials/SSP_Gideon_Skin",
+            "Class": "SubsurfaceProfile",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Meshes/Gideon",
+            "Class": "SkeletalMesh",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Meshes/Gideon_CylShadows",
+            "Class": "PhysicsAsset",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Meshes/Gideon_PhysicsAsset",
+            "Class": "PhysicsAsset",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Meshes/Gideon_Skeleton",
+            "Class": "Skeleton",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Head_Color",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Head_M",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Legs_Mask",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Legs_Mask_2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Legs_RGB_2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Legs_normals",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_OuterRing_Mask",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_OuterRing_Normals",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_OuterRing_RGB",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Upperbody_Mask",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Upperbody_Mask_2",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Upperbody_Normal",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Gideon_Upperbody_RGB",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Inky_Smoke_Tile",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_LP_Rift_Head_N",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
+        },
+        {
+            "Package": "/Other5Characters/Gideon/Characters/Heroes/Gideon/Textures/T_Portal_SpaceMask_M",
+            "Class": "Texture2D",
+            "Source": "Fab:ParagonGideon"
         }
     ]
 }
