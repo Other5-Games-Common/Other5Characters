@@ -2,7 +2,7 @@
 
 This guide follows one real addition, Paragon: Gideon, into the `Other5Characters` plugin and two Creations
 (SKIvSKI and CubeEscape), on 2026-11-14. The same steps work for any humanoid character from Fab, or your own.
-Screenshots (named in the steps) are in the project library.
+The website version, with the same screenshots, is [other5.xyz/Creators/AddingACharacter](https://other5.xyz/Creators/AddingACharacter).
 
 ## What you end up with
 - The character in your project, animated by the mannequin animations every Other5 character already uses (no new
@@ -25,7 +25,9 @@ character already on the mannequin skeleton is simpler: it's a plain **Mesh** sk
 
 ## Step 2: Import it with the editor's Fab panel
 1. In the Other5 Creator: **Window > Fab**, sign in, open the listing (or **My Library**) and click **Add to Project**.
-   *(screenshot 02-FabPanel.png)*
+  
+
+   ![The Fab panel: Add to Project](Images/AddingACharacter/02-FabPanel.jpg)
 2. The pack lands in `Content/ParagonGideon`: about 2,000 files and 2 GB of source, with animations, voice lines, FX,
    four alternate skins and a sample character. You'll only keep what the character's mesh needs.
 3. Using git? Add `/Content/ParagonGideon/` to `.gitignore` so the licensed files never get committed.
@@ -38,6 +40,8 @@ Open the mesh (`Characters/Heroes/Gideon/Meshes/Gideon`) and look at:
 - **Skeleton.** Gideon uses his own `Gideon_Skeleton` (so he's a retargeted skin). All four alternate skins (Inquisitor,
   Mephisto, Tough, Undertow) share it and the same physics asset, so a variant only costs its own meshes and textures.
 
+![Gideon's mesh: his own skeleton and 14 material slots](Images/AddingACharacter/03-Mesh.jpg)
+
 ## Step 4: Move it into your plugin, and make the IK Rig and Retargeter
 `Other5Characters/Docs/Scripts/AddParagonHero.py` does all three. Edit `HERO`, `IMPORT_ROOT` and `MESHES` at the top,
 then type `py "<path>/AddParagonHero.py"` in the editor's console (Cmd box at the bottom). By hand, it's:
@@ -48,10 +52,14 @@ then type `py "<path>/AddParagonHero.py"` in the editor's console (Cmd box at th
    Animations, audio and FX stay behind; Gideon plays the mannequin's animations. For Gideon that's 122 assets.
 2. **IK Rig** (`Rigs/IK_Gideon`): right-click > Animation > Retargeting > IK Rig, pick the Gideon mesh, then
    **Auto Create Retarget Chains** and **Auto Create IK**. The retarget root is `pelvis`. You get the same 21 chains as
-   Countess (spine, neck, head, arms, legs, fingers). *(screenshot 04-IKRig.png)*
+   Countess (spine, neck, head, arms, legs, fingers).
+
+   ![IK_Gideon](Images/AddingACharacter/04-IKRig.jpg)
 3. **IK Retargeter** (`Rigs/RTG_Mannequin_Gideon`): source `IK_LyraMannequin` (in `Other5Characters/Countess/Rigs`),
    target `IK_Gideon`. Chains map by name. The output log should say the retargeter is ready to transfer animation
-   from SKM_Manny to Gideon. Both are in A-pose, so the default retarget pose works. *(screenshot 05-Retargeter.png)*
+   from SKM_Manny to Gideon. Both are in A-pose, so the default retarget pose works.
+
+   ![RTG_Mannequin_Gideon](Images/AddingACharacter/05-Retargeter.jpg)
 
 ## Step 5: Add the skin to your player character
 On your player character Blueprint, select the **Other5CharacterSkins** component and add an element to **Skins**
@@ -74,7 +82,9 @@ Open a map (SKIvSKI: `L_SkiTest`) and press Play.
 - If the editor asks whether to play with **GideonPlayerCharacter** failing to compile, click **Play in Editor**: that's
   the pack's old sample Blueprint (it uses UE4 input), and nothing of yours uses it. Deleting `Content/ParagonGideon`
   once you're done also removes it.
-- Pick Gideon in Choose your fighter *(screenshot 08-ChooseYourFighter.png)*, then run, jump, aim, fire, reload, die.
+- Pick Gideon in Choose your fighter, then run, jump, aim, fire, reload, die.
+
+![Choose your fighter](Images/AddingACharacter/08-ChooseYourFighter.jpg)
 
 ## Step 7: Share your Creation
 Cook and upload with the Other5 Tool as usual. Only what the skin references is cooked into your pak, under your own
