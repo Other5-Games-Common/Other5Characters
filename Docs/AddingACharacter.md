@@ -60,6 +60,12 @@ then type `py "<path>/AddParagonHero.py"` in the editor's console (Cmd box at th
    from SKM_Manny to Gideon. Both are in A-pose, so the default retarget pose works.
 
    ![RTG_Mannequin_Gideon](Images/AddingACharacter/05-Retargeter.jpg)
+4. **Hands on the guns**: in the retargeter's op stack, add **Retarget IK Goals** (before **Run IK Rig**). Under its
+   chains, turn **Enable IK** on for `LeftArm` and `RightArm` only, with **Blend To Source**, **Blend To Source
+   Translation** and **Blend To Source Rotation** all at 1 and **Apply Pelvis Offset To Source Goals** off. The hero's
+   hands then go exactly where the mannequin's are, so the gun (held by the hidden mannequin) sits in the hero's hand
+   and the other hand stays on it. Without it a hero with other proportions holds its pistol beside its hand.
+   `AddParagonHero.py` does this for you.
 
 ## Step 5: Add the skin to your player character
 On your player character Blueprint, select the **Other5CharacterSkins** component and add an element to **Skins**
