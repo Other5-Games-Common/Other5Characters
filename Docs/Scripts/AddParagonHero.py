@@ -91,6 +91,38 @@ if not rig:
 c = unreal.IKRigController.get_controller(rig)
 log("IK_%s chains: %s" % (HERO, ", ".join(str(ch.get_editor_property("chain_name")) for ch in c.get_retarget_chains())))
 
+# The hero's hands go exactly where the mannequin's are (a Retarget IK Goals op: the arm chains' IK goals blended fully
+# to the source), so a gun in the hidden mannequin's hand is in the hero's hand too, and the other hand stays on it.
+# Without it the arms were copied joint by joint, and a hero with other proportions held its pistol beside its hand
+# (Gideon, Countess, 2026-11-23). Legs are left to the joint-by-joint copy, as before.
+def hands_on_guns(rtg, rig):
+	rc = unreal.IKRetargeterController.get_controller(rtg)
+	idx = rc.get_index_of_op_by_name("Retarget IK Goals")
+	if idx < 0:
+		rc.add_retarget_op("/Script/IKRig.IKRetargetIKChainsOp")
+		idx = rc.get_index_of_op_by_name("Retarget IK Goals")
+	run = rc.get_index_of_op_by_name("Run IK Rig")
+	if run >= 0 and idx > run:
+		rc.move_retarget_op_in_stack(idx, run)
+		idx = rc.get_index_of_op_by_name("Retarget IK Goals")
+	rc.assign_ik_rig_to_all_ops(unreal.RetargetSourceOrTarget.TARGET, rig)
+	rc.run_op_initial_setup(idx)
+	oc = rc.get_op_controller(idx)
+	st = oc.get_settings()
+	chains = list(st.get_editor_property("chains_to_retarget"))
+	for ch in chains:
+		arm = str(ch.get_editor_property("target_chain_name")) in ("LeftArm", "RightArm")
+		ch.set_editor_property("enable_ik", arm)
+		if arm:
+			ch.set_editor_property("blend_to_source", 1.0)
+			ch.set_editor_property("blend_to_source_translation", 1.0)
+			ch.set_editor_property("blend_to_source_rotation", 1.0)
+			ch.set_editor_property("apply_pelvis_offset_to_source_goals", False)
+	st.set_editor_property("chains_to_retarget", chains)
+	oc.set_settings(st)
+	Lib.save_loaded_asset(rtg, False)
+	log("hands on guns: arms' IK goals follow the mannequin's hands")
+
 # ---- 3. IK Retargeter
 rtg_path = RIGS + "/RTG_Mannequin_" + HERO
 rtg = unreal.load_asset(rtg_path)
@@ -106,4 +138,5 @@ if not rtg:
 	rc.set_preview_mesh(unreal.RetargetSourceOrTarget.TARGET, mesh)
 	Lib.save_loaded_asset(rtg, False)
 	log("made " + rtg_path)
+hands_on_guns(rtg, rig)
 log("done")
