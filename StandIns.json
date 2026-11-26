@@ -1207,5 +1207,15 @@
             "Class": "Texture2D",
             "Source": "Fab:ParagonGideon"
         }
+    ],
+    "Fixups": [
+        {
+            "Packages": "/Other5Characters/Countess/*",
+            "CameraFade": true
+        },
+        {
+            "Packages": "/Other5Characters/Gideon/*",
+            "CameraFade": true
+        }
     ]
 }
