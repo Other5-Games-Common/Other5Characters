@@ -66,6 +66,11 @@ then type `py "<path>/AddParagonHero.py"` in the editor's console (Cmd box at th
    hands then go exactly where the mannequin's are, so the gun (held by the hidden mannequin) sits in the hero's hand
    and the other hand stays on it. Without it a hero with other proportions holds its pistol beside its hand.
    `AddParagonHero.py` does this for you.
+5. **Fade when the camera closes in**: Other5 fades out the character you're watching when the chase camera is pushed
+   into it (against a wall, say), but only on materials that read the fade. Add the hero's mesh to `MESHES` in
+   `Other5Characters/Docs/Scripts/AddCameraFade.py` and run it (`py "<path>/AddCameraFade.py"`): each of its materials
+   gets a `CameraFade` parameter (custom primitive data index 4) dithered into its opacity mask. The first run after
+   that compiles the hero's shaders again, which takes a minute or two.
 
 ## Step 5: Add the skin to your player character
 On your player character Blueprint, select the **Other5CharacterSkins** component and add an element to **Skins**
